@@ -1,0 +1,74 @@
+.header.navbar-default {
+  height: 61px;
+  border-bottom: 1px solid #000;
+  background-color: @color-dark;
+
+  .navbar-header {
+    color: @color-light;
+    @media (min-width: 768px) {
+      padding-right: 10px;
+    }
+  }
+
+  .navbar-nav {
+    > li > a {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: @color-light;
+    }
+    > .active > a {
+      &,
+      &:focus,
+      &:hover {
+        padding-top: 16px;
+        border-top: 4px solid @color-primary;
+        background-color: @color-dark;
+        color: @color-primary;
+      }
+    }
+    > .open {
+      > a,
+      > a:focus,
+      > a:hover,
+      > label,
+      > label:focus,
+      > label:hover {
+        background-color: @color-dark-variant;
+        color: @color-primary;
+      }
+    }
+  }
+
+  .navbar-toggle {
+    padding: 15px 20px;
+    &:focus,
+    &:hover {
+      background-color: @color-dark-variant;
+      color: @color-primary;
+    }
+  }
+
+  .forum-logo {
+    max-height: 60px;
+    height: 60px;
+    padding: 12px 0;
+    @media (max-width: 767px) {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      margin: 0 auto;
+    }
+  }
+
+  .pagination-block .progress-container {
+    background-color: @color-dark-variant;
+    .progress-bar {
+      background-color: @color-secondary;
+    }
+  }
+
+  #user_dropdown {
+    padding: 15px;
+  }
+}

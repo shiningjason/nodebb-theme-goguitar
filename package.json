@@ -1,0 +1,11 @@
+{
+  "name": "nodebb-theme-goguitar",
+  "version": "1.0.0",
+  "description": "GoGuitar theme for NodeBB",
+  "main": "theme.less",
+  "author": "Jason Chung <jason.chung@positivegrid.com>",
+  "license": "MIT",
+  "nbbpm": {
+    "compatibility": "^1.10.0"
+  }
+}

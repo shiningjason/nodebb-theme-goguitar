@@ -1,0 +1,8 @@
+{
+  "id": "nodebb-theme-goguitar",
+  "name": "goguitar",
+  "description": "A theme based on nodebb theme persona",
+  "url": "https://github.com/shiningjason/nodebb-theme-goguitar",
+  "screenshot": "screenshot.png",
+  "baseTheme": "nodebb-theme-persona"
+}
